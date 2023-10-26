@@ -1,0 +1,84 @@
+.main{
+    --bg-color-1 : #9db3ed;
+    --bg-color-2 : #f9f9f9;
+    --text-color-1 : #0b1537;
+    --text-color-2 : #636363;
+}
+
+.main[data-theme = "dark"]{
+    --bg-color-1 : #172b67;
+    --bg-color-2 : #050c26;
+    --text-color-1 : #fbfcfc;
+    --text-color-2 : #bbbcbc;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.custome-scroll::-webkit-scrollbar{
+    height: 5px;
+    width: 5px;
+}
+
+.custome-scroll::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+.custome-scroll::-webkit-scrollbar-thumb{
+    background-color: rgba(0,0,0,0.14);
+}
+
+.custome-scroll::-webkit-scrollbar-thumb:hover{
+    background-color: gray;
+}
+.main_claculator{
+    height: 500px;
+    width: 280px;
+    border-radius: 30px;
+    /* background-color: rgb(58, 68, 68); */
+    box-shadow: 1px -1px 20px rgba(0,0,0,0.15);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.main_claculator_navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    min-height: 40px;
+    padding: 10px;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.main_claculator_navbar img{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%; 
+}
+.main_claculator_navbar_toggle{
+    height: 15px;
+    width: 30px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 40px 80px rgba(0,0,0,0.14);
+    cursor: pointer;
+}
+.main_claculator_navbar_toggle_circle{
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: white;
+    transition: 300ms;
+}
+.main_claculator_navbar_toggle_circle_active{
+    margin-left: 15px;
+}

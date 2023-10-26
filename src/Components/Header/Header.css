@@ -1,0 +1,36 @@
+.header{
+    flex: 1;
+    background-color: var(--bg-color-1);
+    padding: 20px;
+}
+.header p{
+    font-size: 1rem;
+    line-height: 1.875rem;
+    color: var(--text-color-1);
+    display: flex;
+    /* background-color: var(--bg-color-1); */
+    justify-content: flex-end;
+    background-color: var(--bg-color-1);
+
+}
+.header_expresion{
+    width: 100%;
+    min-height: 30px;
+    background-color: var(--bg-color-1);
+
+}
+
+.header_expresion p{
+    white-space: nowrap;
+    width: fit-content;
+    min-width: 100%;
+    font-weight: bold;
+}
+
+.header_result{
+    font-weight: bold;
+    font-size: 1.5rem !important;
+    min-height: 30px;
+    background-color: var(--bg-color-1);
+
+}
